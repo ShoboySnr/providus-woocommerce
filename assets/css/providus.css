@@ -1,0 +1,131 @@
+.providus-custom-payment-button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline !important;
+}
+
+button.providus-custom-payment-button.primary {
+    background-color: #fcb916;
+    border: none;
+    color: #ffffff;
+}
+
+button.providus-custom-payment-button.secondary {
+    background-color: transparent;
+    border: 1px solid #fcb916;
+    color: #fcb916;
+}
+
+.providus_custom_payment_container {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 999999999999;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.providus_custom_payment_container .pw-providus-container {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    height: max-content;
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+}
+
+.providus_custom_payment_container .pw-providus-container .title {
+    padding-bottom: 15px;
+}
+
+.providus_custom_payment_container .pw-providus-container .title h4 {
+    margin-bottom: 0;
+}
+
+.providus_custom_payment_container .pw-providus-container hr {
+    background-color: #cccccc;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.providus_custom_payment_container .pw-providus-container form {
+    margin-top: 30px;
+    display: block;
+    text-align: left;
+}
+
+.providus_custom_payment_container .pw-providus-container form .input-group {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.providus_custom_payment_container .pw-providus-container form .input-group input {
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #ccc;
+}
+
+.providus_custom_payment_container .pw-providus-container form .input-group input[type=submit] {
+    background-color: #fcb916;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.providus_custom_payment_container .pw-providus-container form .input-group input[type=submit]:disabled {
+    opacity: 0.6;
+    cursor: auto;
+}
+
+.providus_custom_payment_container .pw-providus-container .notices-alert {
+    display: none;
+    font-size: 13px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.providus_custom_payment_container .pw-providus-container .error {
+    background-color: #F72302;
+}
+
+.providus_custom_payment_container .pw-providus-container .error > *,
+.providus_custom_payment_container .pw-providus-container .success > * {
+    margin: 0;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 7px;
+}
+
+.providus_custom_payment_container .pw-providus-container .success {
+    background-color: #32CD32;
+}
+
+.providus_custom_payment_container .pw-providus-container button.pw-close-button {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    background-color: transparent;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.providus_custom_payment_container .pw-providus-container a.pw-close-dialog {
+    text-decoration: underline;
+    color: #ffffff;
+}

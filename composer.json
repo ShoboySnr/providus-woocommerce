@@ -1,0 +1,17 @@
+{
+    "name": "damilareshobowale/providus-woocommerce",
+    "description": "Providus Payment Gateway for WooCommerce",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "ProvidusWooCommerce\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Damilare Shobowale",
+            "email": "oluwadamilareshobowale@gmail.com"
+        }
+    ],
+    "require": {}
+}
