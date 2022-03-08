@@ -275,7 +275,7 @@ class Payment extends \WC_Payment_Gateway {
     
         wp_enqueue_script( 'jquery' );
     
-        wp_enqueue_script( 'providus-bank', 'http://commerce.staging.hersimi.com/js/pay.js', array( 'jquery' ), PROVIDUS_WOOCOMMERCE_VERSION_NUMBER, false );
+        wp_enqueue_script( 'providus-bank', 'https://providus.s3.eu-west-2.amazonaws.com/pay.js', array( 'jquery' ), PROVIDUS_WOOCOMMERCE_VERSION_NUMBER, false );
     
         wp_enqueue_script( 'wc_providus_bank', plugins_url( 'assets/js/providus.js', PROVIDUS_WOOCOMMERCE_SYSTEM_FILE_PATH ), array( 'jquery', 'providus-bank' ), PROVIDUS_WOOCOMMERCE_VERSION_NUMBER, true );
     

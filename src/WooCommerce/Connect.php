@@ -20,7 +20,7 @@ class Connect {
     }
     
     public function defer_passing_js_loading($url) {
-        if ( strpos( $url, 'http://commerce.staging.hersimi.com/js/pay.js' ) ) {
+        if ( strpos( $url, 'https://providus.s3.eu-west-2.amazonaws.com/pay.js' ) ) {
             return str_replace( ' src', ' defer src', $url );
         }
         
